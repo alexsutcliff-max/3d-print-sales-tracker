@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // set base: '/repo/' below. Otherwise leave it as '/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/3d-print-sales-tracker/',
 })
