@@ -22,3 +22,12 @@ npm run preview
    - Settings → Pages → Build from a GitHub Action → pick the Vite workflow template, or publish the `dist` folder manually.
 
 Tailwind is loaded via CDN in `index.html`, so no extra config is needed.
+
+
+---
+
+## Quick GitHub Pages Deploy
+1) Push this repo to `alexsutcliff-max/3d-print-sales-tracker`.
+2) The workflow `.github/workflows/deploy.yml` will build and deploy automatically on pushes to `main`.
+3) Enable **Settings → Pages → Source: GitHub Actions** if it’s not already.
+4) Your site will publish to: `https://alexsutcliff-max.github.io/3d-print-sales-tracker/`.
